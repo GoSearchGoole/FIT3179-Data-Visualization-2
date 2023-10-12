@@ -3,16 +3,11 @@
 }
 
 #intro_life_expectancy{
-	left: 210px;
-	right: 210px;
 	text-align: center;
 }
 
 #symbol_map { 
-	left: 210px;
-	right: 210px;
-	height: 1000px;
-	width: 800px;
+	text-align: center;
 }
 
 #reference{
