@@ -7,6 +7,10 @@
 }
 
 #symbol_map { 
+	left: 210px;
+	right: 210px;
+	height: 1000px;
+	width: 800px;
 	text-align: center;
 }
 
