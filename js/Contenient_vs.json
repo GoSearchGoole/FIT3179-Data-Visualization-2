@@ -1,5 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 300,
+  "title": "Comparison of Life Expectancy between Continents from 2000 to 2015",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Continent_vs.csv"
+  },
   "params": [
     {
       "name": "Continent_selection",
@@ -11,12 +17,6 @@
       }
     }
   ],
-  "width": 600,
-  "height": 300,
-  "title": "Comparison of Life Expectancy between Continents from 2000 to 2015",
-  "data": {
-    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Homework-Week10/main/data/Continent_vs.csv"
-  },
   "transform": [
     {
       "filter": "Continent_selection == null || datum.Continent == Continent_selection"
@@ -26,14 +26,12 @@
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year",
-      "scale": {"type": "point"}
+      "title": "Year"
     },
     "y": {
       "field": "Life Expectancy",
       "type": "quantitative",
-      "axis": {"grid": false, "ticks": false, "labels": false, "tickCount": 5},
-      "scale": {"domain": [50, 85]}
+      "axis": {"grid": false, "tickCount": 5}
     },
     "color": {
       "condition": {"param": "hover", "field": "Continent", "type": "nominal"},
@@ -43,7 +41,7 @@
   },
   "layer": [
     {
-      "description": "transparent layer to make it easier to trigger selection",
+      "description": "transparent layer -> trigger selection",
       "params": [
         {
           "name": "hover",
@@ -55,7 +53,7 @@
           }
         }
       ],
-      "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"
+      "mark": {"type": "line", "strokeWidth": 9, "stroke": "transparent"
       }
     },
     {
@@ -67,14 +65,13 @@
           "field": "Year",
           "type": "ordinal",
           "title": "Year",
-          "axis": {"titleColor": "black", "labelColor": "black"},
           "scale": {"type": "point"}
         },
         "y": {
           "field": "Life Expectancy",
           "type": "quantitative",
-          "title": "Life Expectancy",
-          "axis": {"grid": false, "titleColor": "black", "labelColor": "black"}
+          "title": "Life Expectancy (Age)",
+          "axis": {"grid": false}
         },
         "color": {
           "field": "Continent",

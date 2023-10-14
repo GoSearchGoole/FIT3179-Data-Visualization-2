@@ -97,5 +97,6 @@
             "mark": {"type": "geoshape", "fill": null, "stroke": "gray"}
           }
         ],
-    "config": {"title": {"fontSize": 20}}  
+    "config": {"title": {"fontSize": 20},
+    "view": {"stroke": null}}  
   }
