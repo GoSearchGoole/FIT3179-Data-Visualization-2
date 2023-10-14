@@ -1,4 +1,4 @@
-Country Name,Year,Continent,Life expectancy ,Income Group,CO2,Health Expenditure %,Status,Adult Mortality,infant deaths
+Country,Year,Continent,Life Expectancy ,Income Group,CO2,Health Expenditure %,Status,Adult Mortality,Infant Deaths
 Afghanistan,2000,Asia,54.8,Low income,,,Developing,321,88
 Afghanistan,2001,Asia,56.308,Low income,730,,Developing,316,88
 Afghanistan,2002,Asia,56.784,Low income,1029.999971,9.44338989,Developing,3,88
