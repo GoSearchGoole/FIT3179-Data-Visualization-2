@@ -1,0 +1,101 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "params": [
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": ["Show All", "North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "width": 600,
+  "height": 300,
+  "title": "Comparison of Life Expectancy between Continents from 2000 to 2015",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Homework-Week10/main/data/Continent_vs.csv"
+  },
+  "transform": [
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "scale": {"type": "point"}
+    },
+    "y": {
+      "field": "Life Expectancy",
+      "type": "quantitative",
+      "axis": {"grid": false, "ticks": false, "labels": false, "tickCount": 5},
+      "scale": {"domain": [50, 85]}
+    },
+    "color": {
+      "condition": {"param": "hover", "field": "Continent", "type": "nominal"},
+      "value": "grey"
+    },
+    "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0.2}
+  },
+  "layer": [
+    {
+      "description": "transparent layer to make it easier to trigger selection",
+      "params": [
+        {
+          "name": "hover",
+          "value": [{"Continent": "Asia"}],
+          "select": {
+            "type": "point",
+            "fields": ["Continent"],
+            "on": "mouseover"
+          }
+        }
+      ],
+      "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"
+      }
+    },
+    {
+      "mark": "line"
+    },
+    {
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {"titleColor": "black", "labelColor": "black"},
+          "scale": {"type": "point"}
+        },
+        "y": {
+          "field": "Life Expectancy",
+          "type": "quantitative",
+          "title": "Life Expectancy",
+          "axis": {"grid": false, "titleColor": "black", "labelColor": "black"}
+        },
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
+            "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]
+          }
+        },
+        "tooltip": [
+          {"field": "Year", "type": "ordinal"},
+          {"field": "Continent", "type": "nominal"},
+          {"field": "Life Expectancy", "type": "quantitative"}
+        ]
+      },
+      "layer": [{"mark": {"type": "circle"}}
+      ]
+    }
+  ],
+  "config": {
+    "title": {"fontSize": 20},
+    "view": {"stroke": null}
+  }
+}

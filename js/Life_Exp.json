@@ -12,8 +12,8 @@
         "name": "Year: "
       }
       }],
-      "width": "container",
-      "height": 450,
+      "width": 400,
+      "height": 350,
       "title": "Life Expectancy from 2000 to 2015",
       "projection": {"type": "equalEarth"},
       "layer": [
