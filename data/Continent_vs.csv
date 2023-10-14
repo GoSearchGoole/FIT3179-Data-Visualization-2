@@ -1,65 +1,101 @@
 Continent,Year,Life Expectancy
+Africa,2000,55.74
 Asia,2000,68.27
-Asia,2001,
-Asia,2002,
-Asia,2003,
-Asia,2004,
-Asia,2005,
-Asia,2006,
-Asia,2007,
-Asia,2008,
-Asia,2009,
-Asia,2010,
-Asia,2011,
-Asia,2012,
-Asia,2013,
-Asia,2014,
-Asia,2015,
-Africa,2000,
-Africa,2001,
-Africa,2002,
-Africa,2003,
-Africa,2004,
-Africa,2005,
-Africa,2006,
-Africa,2007,
-Africa,2008,
-Africa,2009,
-Africa,2010,
-Africa,2011,
-Africa,2012,
-Africa,2013,
-Africa,2014,
-Africa,2015,
-Europe,2000,
-Europe,2001,
-Europe,2002,
-Europe,2003,
-Europe,2004,
-Europe,2005,
-Europe,2006,
-Europe,2007,
-Europe,2008,
-Europe,2009,
-Europe,2010,
-Europe,2011,
-Europe,2012,
-Europe,2013,
-Europe,2014,
-Europe,2015,
-,2000,
-,2001,
-,2002,
-,2003,
-,2004,
-,2005,
-,2006,
-,2007,
-,2008,
-,2009,
-,2010,
-,2011,
-,2012,
-,2013,
-,2014,
-,2015,
+Europe,2000,75.11
+North America,2000,72.86
+Oceania,2000,69.42
+South America,2000,71.78
+Africa,2001,55.45
+Asia,2001,68.66
+Europe,2001,74.93
+North America,2001,73.00
+Oceania,2001,69.45
+South America,2001,71.00
+Africa,2002,55.72
+Asia,2002,68.91
+Europe,2002,74.88
+North America,2002,73.23
+Oceania,2002,69.58
+South America,2002,71.32
+Africa,2003,55.95
+Asia,2003,69.34
+Europe,2003,75.04
+North America,2003,73.11
+Oceania,2003,69.92
+South America,2003,71.53
+Africa,2004,56.40
+Asia,2004,69.75
+Europe,2004,75.45
+North America,2004,73.36
+Oceania,2004,70.16
+South America,2004,71.86
+Africa,2005,56.91
+Asia,2005,70.00
+Europe,2005,75.56
+North America,2005,73.54
+Oceania,2005,70.39
+South America,2005,72.15
+Africa,2006,57.52
+Asia,2006,70.35
+Europe,2006,75.85
+North America,2006,73.73
+Oceania,2006,70.59
+South America,2006,72.41
+Africa,2007,58.19
+Asia,2007,70.67
+Europe,2007,76.06
+North America,2007,73.94
+Oceania,2007,70.78
+South America,2007,72.65
+Africa,2008,58.85
+Asia,2008,71.09
+Europe,2008,76.39
+North America,2008,74.10
+Oceania,2008,70.97
+South America,2008,72.88
+Africa,2009,59.66
+Asia,2009,71.50
+Europe,2009,76.69
+North America,2009,74.31
+Oceania,2009,71.18
+South America,2009,73.16
+Africa,2010,60.21
+Asia,2010,71.81
+Europe,2010,77.01
+North America,2010,74.46
+Oceania,2010,71.36
+South America,2010,73.40
+Africa,2011,60.93
+Asia,2011,71.90
+Europe,2011,77.59
+North America,2011,74.69
+Oceania,2011,71.58
+South America,2011,73.63
+Africa,2012,61.60
+Asia,2012,71.99
+Europe,2012,77.79
+North America,2012,74.89
+Oceania,2012,71.78
+South America,2012,73.84
+Africa,2013,62.36
+Asia,2013,72.46
+Europe,2013,77.92
+North America,2013,75.00
+Oceania,2013,71.98
+South America,2013,74.06
+Africa,2014,62.93
+Asia,2014,72.80
+Europe,2014,78.28
+North America,2014,75.21
+Oceania,2014,72.16
+South America,2014,74.26
+Africa,2015,63.34
+Asia,2015,72.94
+Europe,2015,78.31
+North America,2015,75.38
+Oceania,2015,72.32
+South America,2015,74.46
+,,
+,,
+,,
+,,
