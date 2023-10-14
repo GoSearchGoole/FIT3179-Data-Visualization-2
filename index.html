@@ -6,58 +6,74 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   <title>FIT 3179 Assignment Data Visualization 2</title>
-  
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
   
 </head>
+
 <body>
+  <div class="page">
 
-<div id="Header">
-  <h1>Life Experience</h1>
-</div>
+    <div class="pure-g">
+      <h1>Life Experience</h1>
+    </div>
 
-<div id="intro_life_expectancy">
-  <h2>Why Life Expectancy Matters?</h2>
-  <p>Hope this video could give you a bit of understanding.</p>
-  <a href="https://www.youtube.com/watch?v=i2qckcs_tmI">
-    <img src="https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Video_Image_LE.png" 
-    alt="Description of the image" style="width: 700px; height: 400px;">
-  </a>
-  <p>
-    Now, you have a basic understanding of the life expectancy with three species. Here, we only focus on the hunman Life
-    Expectancy. Life Expectancy is the critical element when we comes to the life insurance. The insurance company will 
-    ghater some sensentive information to predict the life expectancy of the policyholder than calculate the perimum
-    that the policyholder needs to pay annualy. Behind that the insurance company can ensure they have sufficient money
-    when any accident happens (i.e. the policyholder dies before the estimation.)
-  </p>
-</div>
+    <div class="pure-g">
+      <div class = "pure-u-1-1" style="text-align: center;">
+        <h2>Why Life Expectancy Matters?</h2>
+        <p>Hope this video could give you a bit of understanding.</p>
+        <a href="https://www.youtube.com/watch?v=i2qckcs_tmI">
+          <img src="https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Video_Image_LE.png" 
+          alt="Description of the image" style="width: 700px; height: 400px;">
+        </a>
+        <p>
+          Now, you have a basic understanding of the life expectancy with three species. Here, we only focus on the hunman Life
+          Expectancy. Life Expectancy is the critical element when we comes to the life insurance. The insurance company will 
+          ghater some sensentive information to predict the life expectancy of the policyholder than calculate the perimum
+          that the policyholder needs to pay annualy. Behind that the insurance company can ensure they have sufficient money
+          when any accident happens (i.e. the policyholder dies before the estimation.)
+        </p>
+      </div>
+    </div>
 
-<h2> The Changing of Life Expectancy</h2>
-<div id="Life_Exp_vs_AMortality">
+    <div class="pure-g title-container">
+      <div class="pure-u-1-1">
+        <h2>Life Expectancy vs Adult Mortality</h2>
+      </div>
+    </div>
 
-  <script type="text/javascript">
-
-    var spec2 = "js/Life_Exp_vs_AMortality.json";
-    vegaEmbed('#Life_Exp_vs_AMortality', spec2).then(function(result) {
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <div id="vis1" class="vis-container" style="width: 100%;"></div>
+      </div>
+      <div class="pure-u-1-2">
+          <div id="vis2" class="vis-container" style="width: 100%; margin-left: 15px;"></div>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script type="text/javascript">
+        var specVis1 = "js/Life_Exp.json";
+        var specVis2 = "js/Adult_Mortality.json";
+    
+        vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
-  </script>
-</div>
 
-<h2> The Relaionships between Life Expectancy and its measurements</h2>
+        vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+      </script>
 
-<div id="reference">
-  <h2>Reference</h2>
-  <a href="https://www.kaggle.com/datasets/mjshri23/life-expectancy-and-socio-economic-world-bank">
-    <p>1. Life expectancy & Socio-Economic (world bank)</p>
-  </a>
-  <a href="https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who">
-    <p>2. Life Expectancy (WHO)</p>
-  </a>
-  <a href="https://www.youtube.com/watch?v=i2qckcs_tmI">
-    <p>3. The Problem with Life Expectancy</p>
-  </a>
-</div>
+    
+  </div>
 </body>
 </html>

@@ -1,19 +1,49 @@
-#Header{
-	text-align: center;
+body *{
+    font-family: 'Open Sans', sans-serif;
 }
 
-#intro_life_expectancy{
-	text-align: center;
+h1 {
+    font-weight: 500;
 }
 
-#Life_Exp_vs_AMortality{ 
-	left: 210px;
-	right: 210px;
-	height: 1000px;
-	width: 800px;
-	text-align: center;
+body {
+    background-color: rgb(240, 237, 237);
 }
 
-#reference{
+.page {
+    width: 1050px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+.title-container {
 	text-align: center;
+  }
+
+
+.vis-container {
+    width: 100%;
+}
+
+.description h2,
+h1 {
+    margin-top: 0px;
+}
+
+.description-right {
+    padding-left: 20px;
+}
+
+.description-left {
+    padding-right: 20px;
+}
+
+.pure-g {
+    margin-bottom: 40px;
+}
+
+.small-font {
+    font-size: 14px;
 }

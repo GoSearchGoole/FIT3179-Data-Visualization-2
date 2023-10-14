@@ -12,7 +12,6 @@
         "name": "Year: "
       }
       }],
-    "vconcat": [{
       "width": "container",
       "height": 450,
       "title": "Life Expectancy from 2000 to 2015",
@@ -72,7 +71,7 @@
               },
               "legend": {
                 "title": "Life Expectancy (Age)",
-                "values": [0, 35, 60, 70, 80, 89]
+                "values": [0, 39, 60, 70, 80, 87]
               }
             },
             "tooltip": [
@@ -82,8 +81,21 @@
               {"field": "Status", "type": "nominal"}
             ]
           }
+        },
+        {
+          "data":{
+            "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/js/ne_110m.topojson",
+            "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+          },
+          "mark": {"type": "geoshape", "fill": null, "stroke": "gray"}
+        },
+        {
+          "data":{
+            "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/js/ne_110m_wgs84_bounding_box.topojson",
+            "format": {"type": "topojson", "feature": "ne_110m_wgs84_bounding_box"}
+          },
+          "mark": {"type": "geoshape", "fill": null, "stroke": "gray"}
         }
-      ]
-      }],
-    "config": {"title": {"fontSize": 20}}  
+      ],
+      "config": {"title": {"fontSize": 20}} 
   }
