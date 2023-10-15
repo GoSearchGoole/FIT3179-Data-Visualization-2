@@ -12,6 +12,10 @@
   "mark": "bar",
   "encoding": {
     "y": {"field": "Life Expectancy", "type": "quantitative"},
-    "x": {"field": "Status", "type": "nominal"}
+    "x": {"field": "Status", "type": "nominal"},
+    "tooltip": [
+      {"field": "Year", "title": "Year"},
+      {"field": "Life Expectancy", "title": "Life Expectancy"}
+    ]
   }
 }

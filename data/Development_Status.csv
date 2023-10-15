@@ -1,13 +1,13 @@
 Continent,Life Expectancy,Status
-Africa,0,Developed
-Asia,83.265,Developed
-Europe,79.74962963,Developed
-North America,80.53333333,Developed
-Oceania,81,Developed
-South America,0,Developed
-Africa,63.3437931,Developing
-Asia,72.41205128,Developing
-Europe,76.01941176,Developing
-North America,74.602,Developing
-Oceania,69.06875,Developing
-South America,74.46384615,Developing
+Africa,0.00,Developed
+Asia,83.27,Developed
+Europe,79.75,Developed
+North America,80.53,Developed
+Oceania,81.00,Developed
+South America,0.00,Developed
+Africa,63.34,Developing
+Asia,72.41,Developing
+Europe,76.02,Developing
+North America,74.60,Developing
+Oceania,69.07,Developing
+South America,74.46,Developing
