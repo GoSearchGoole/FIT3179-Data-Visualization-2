@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Countries.csv"
+  },
+  "params": [
+    {
+    "name": "Year_selection",
+    "value": 2010,
+    "bind": {
+      "input": "range",
+      "min": 2001,
+      "max": 2015,
+      "step": 1,
+      "name": "Year: "
+    }
+    }],
+  "mark": {
+    "type": "circle",
+    "filled": true
+  },
+  "encoding": {
+    "x": {
+      "field": "GDP",
+      "type": "quantitative",
+      "scale": {"type": "log"},
+      "title": "GDP"
+    },
+    "y": {
+      "field": "Life Expectancy",
+      "type": "quantitative",
+      "scale": {"type": "linear"},
+      "title": "Life Expectancy"
+    },
+    "size": {
+      "field": "population",
+      "type": "quantitative",
+      "scale": {"type": "sqrt"},
+      "title": "Population"
+    }
+  }
+}

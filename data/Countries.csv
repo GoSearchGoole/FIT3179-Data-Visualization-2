@@ -1,0 +1,106 @@
+Country,Year,Continent,Life Expectancy,Income Group,CO2,Health Expenditure %,Status,Adult Mortality,Infant Deaths,GDP,Population
+China,2001,Asia,71.73,Upper middle income,3529080,4.25329876,Developing,11,457,1324.81,1271850000
+China,2002,Asia,72.06,Upper middle income,3810060.059,4.38285208,Developing,16,422,1453.84,1280400000
+China,2003,Asia,72.38,Upper middle income,4415910.156,4.41762829,Developing,13,391,1640.97,1288400000
+China,2004,Asia,72.69,Upper middle income,5124819.824,4.29347467,Developing,11,360,1931.64,1296075000
+China,2005,Asia,72.99,Upper middle income,5824629.883,4.17605114,Developing,99,332,2243.69,1303720000
+China,2006,Asia,73.27,Upper middle income,6437470.215,3.94742227,Developing,98,307,2630.11,1311020000
+China,2007,Asia,73.55,Upper middle income,6993180.176,3.67491436,Developing,96,285,3051.24,1317885000
+China,2008,Asia,73.84,Upper middle income,7199600.098,3.90000153,Developing,97,266,3416.57,1324655000
+China,2009,Asia,74.12,Upper middle income,7719069.824,4.3495841,Developing,93,248,4757.74,1331260000
+China,2010,Asia,74.41,Upper middle income,8474919.922,4.23068333,Developing,92,231,5263.33,1337705000
+China,2011,Asia,74.71,Upper middle income,9282549.805,4.34274435,Developing,91,215,6524.23,1345035000
+China,2012,Asia,75.01,Upper middle income,9541870.117,4.56584787,Developing,89,201,7287.76,1354190000
+China,2013,Asia,75.32,Upper middle income,9984570.313,4.71490669,Developing,88,185,8283.35,1363240000
+China,2014,Asia,75.63,Upper middle income,10006669.92,4.77790594,Developing,86,171,11384.76,1371860000
+China,2015,Asia,75.93,Upper middle income,9861099.609,4.93827963,Developing,85,157,12253.98,1379860000
+United Arab Emirates,2001,Asia,74.54,High income,97200,2.48437047,Developing,14,1,70.22,3302722
+United Arab Emirates,2002,Asia,74.76,High income,99150.00153,2.71770859,Developing,11,1,68.68,3478769
+United Arab Emirates,2003,Asia,74.97,High income,103819.9997,2.64634395,Developing,98,1,75.29,3711931
+United Arab Emirates,2004,Asia,75.17,High income,110010.0021,2.46204352,Developing,95,1,88.58,4068577
+United Arab Emirates,2005,Asia,75.38,High income,116459.9991,2.32019687,Developing,92,1,103.78,4588222
+United Arab Emirates,2006,Asia,75.57,High income,121559.9976,2.3254137,Developing,89,1,130.26,5300172
+United Arab Emirates,2007,Asia,75.77,High income,131830.0018,2.56569624,Developing,87,1,168.26,6168846
+United Arab Emirates,2008,Asia,75.96,High income,156050.0031,2.92847776,Developing,85,1,185.95,7089486
+United Arab Emirates,2009,Asia,76.15,High income,157020.0043,4.04999352,Developing,84,1,207.94,7917368
+United Arab Emirates,2010,Asia,76.33,High income,162789.9933,3.87874508,Developing,82,1,228.58,8549998
+United Arab Emirates,2011,Asia,76.52,High income,165600.0061,3.67007303,Developing,81,1,256.18,8946778
+United Arab Emirates,2012,Asia,76.71,High income,175589.9963,3.42520428,Developing,8,1,298.85,9141598
+United Arab Emirates,2013,Asia,76.9,High income,184470.0012,3.59299517,Developing,78,1,326.18,9197908
+United Arab Emirates,2014,Asia,77.1,High income,184759.9945,3.63020945,Developing,77,1,356.67,9214182
+United Arab Emirates,2015,Asia,77.29,High income,195240.0055,3.58359432,Developing,75,1,339.09,9262896
+United Kingdom,2001,Europe,77.99,High income,545260,7.56716347,Developed,88,4,1445.19,59119673
+United Kingdom,2002,Europe,78.14,High income,530789.978,7.94137812,Developed,87,4,1435.63,59370479
+United Kingdom,2003,Europe,78.45,High income,543039.978,8.11239147,Developed,86,4,1574.47,59647577
+United Kingdom,2004,Europe,78.75,High income,543080.0171,8.39001179,Developed,83,4,1814.64,59987905
+United Kingdom,2005,Europe,79.05,High income,540919.9829,8.44144344,Developed,82,4,2155.16,60401206
+United Kingdom,2006,Europe,79.25,High income,542059.9976,8.60818768,Developed,82,4,2230.61,60846820
+United Kingdom,2007,Europe,79.45,High income,530500,8.7854166,Developed,8,4,2373.69,61322463
+United Kingdom,2008,Europe,79.6,High income,515340.0269,9.06439972,Developed,8,4,2660.66,61806995
+United Kingdom,2009,Europe,80.05,High income,466489.9902,9.8809166,Developed,78,4,2822.66,62276270
+United Kingdom,2010,Europe,80.4,High income,482440.0024,9.83532333,Developed,77,3,2198.16,62766365
+United Kingdom,2011,Europe,80.95,High income,445589.9963,9.84848499,Developed,74,3,2353.03,63258810
+United Kingdom,2012,Europe,80.9,High income,467779.9988,9.91419888,Developed,72,3,2611.27,63700215
+United Kingdom,2013,Europe,81,High income,453760.0098,9.97566223,Developed,72,3,2758.8,64128273
+United Kingdom,2014,Europe,81.3,High income,415600.0061,9.95041275,Developed,71,3,2919.12,64602298
+United Kingdom,2015,Europe,80.96,High income,401079.9866,9.90072441,Developed,69,3,2864.9,65116219
+United States of America,2001,North America,76.84,High income,5748260,13.16362572,Developed,115,28,9816.98,284968955
+United States of America,2002,North America,76.94,High income,5593029.785,13.98185062,Developed,115,28,10127.95,287625193
+United States of America,2003,North America,77.04,High income,5658990.234,14.49863911,Developed,114,28,10469.6,290107933
+United States of America,2004,North America,77.49,High income,5738290.039,14.59480953,Developed,111,28,10960.75,292805298
+United States of America,2005,North America,77.49,High income,5753490.234,14.60504532,Developed,112,28,11712.48,295516599
+United States of America,2006,North America,77.69,High income,5653080.078,14.71834183,Developed,113,28,12455.83,298379912
+United States of America,2007,North America,77.99,High income,5736319.824,14.93882084,Developed,11,27,13244.55,301231207
+United States of America,2008,North America,78.04,High income,5558379.883,15.2670145,Developed,18,27,13770.31,304093966
+United States of America,2009,North America,78.39,High income,5156430.176,16.23350334,Developed,18,26,14418.48,306771529
+United States of America,2010,North America,78.54,High income,5392109.863,16.25922203,Developed,15,25,14266.2,309327143
+United States of America,2011,North America,78.64,High income,5173600.098,16.1985054,Developed,16,25,14704.21,311583481
+United States of America,2012,North America,78.74,High income,4956060.059,16.17543411,Developed,16,24,16008.51,313877662
+United States of America,2013,North America,78.74,High income,5092100.098,16.06451797,Developed,16,23,16729.38,316059947
+United States of America,2014,North America,78.84,High income,5107209.961,16.25333214,Developed,14,23,17419.35,318386329
+United States of America,2015,North America,78.69,High income,4990709.961,16.52407265,Developed,13,23,17968.2,320738994
+Australia,2001,Oceania,79.63,High income,345640,7.69622898,Developed,75,1,390.02,19413000
+Australia,2002,Oceania,79.94,High income,353369.9951,7.89332151,Developed,73,1,368.19,19651400
+Australia,2003,Oceania,80.24,High income,352579.9866,7.90449524,Developed,71,1,412.9,19895400
+Australia,2004,Oceania,80.49,High income,365809.9976,8.10948753,Developed,69,1,527.59,20127400
+Australia,2005,Oceania,80.84,High income,370089.9963,7.99008226,Developed,67,1,639.36,20394800
+Australia,2006,Oceania,81.04,High income,375489.9902,7.98943853,Developed,66,1,712.44,20697900
+Australia,2007,Oceania,81.29,High income,385750,8.06755352,Developed,66,1,754.82,20827600
+Australia,2008,Oceania,81.4,High income,388940.0024,8.25585651,Developed,66,1,822.09,21249200
+Australia,2009,Oceania,81.54,High income,395290.0085,8.56316471,Developed,66,1,854.07,21691700
+Australia,2010,Oceania,81.7,High income,387540.0085,8.4308424,Developed,64,1,920.01,22031750
+Australia,2011,Oceania,81.9,High income,386380.0049,8.54153824,Developed,63,1,982.83,22340024
+Australia,2012,Oceania,82.05,High income,386970.0012,8.67564774,Developed,61,1,1039.69,22733465
+Australia,2013,Oceania,82.15,High income,380279.9988,8.76116371,Developed,61,1,1078.91,23128129
+Australia,2014,Oceania,82.3,High income,371630.0049,9.03597069,Developed,6,1,1125.82,23475686
+Australia,2015,Oceania,82.4,High income,377799.9878,9.32758904,Developed,59,1,1240.8,23815995
+New Zealand,2001,Oceania,78.69,High income,31620,7.5789361,Developed,83,0,52.41,3880500
+New Zealand,2002,Oceania,78.85,High income,31540.00092,7.90045929,Developed,83,0,51.42,3948500
+New Zealand,2003,Oceania,79.15,High income,33400.00153,7.72169209,Developed,82,0,59.9,4027200
+New Zealand,2004,Oceania,79.55,High income,32840.00015,7.90090561,Developed,79,0,79.34,4087500
+New Zealand,2005,Oceania,79.85,High income,34229.99954,8.27334881,Developed,78,0,97.65,4133900
+New Zealand,2006,Oceania,80.05,High income,34270.00046,8.63841629,Developed,76,0,108.42,4184600
+New Zealand,2007,Oceania,80.15,High income,33270.00046,8.32904434,Developed,76,0,103.38,4223800
+New Zealand,2008,Oceania,80.35,High income,34169.99817,9.12382889,Developed,75,0,114.33,4259800
+New Zealand,2009,Oceania,80.7,High income,31170.00008,9.62076378,Developed,73,0,118.61,4302600
+New Zealand,2010,Oceania,80.7,High income,31049.99924,9.59277534,Developed,71,0,109.56,4350700
+New Zealand,2011,Oceania,80.9,High income,30290.00092,9.51987362,Developed,72,0,117.66,4384000
+New Zealand,2012,Oceania,81.16,High income,32110.00061,9.65163612,Developed,7,0,123.02,4408100
+New Zealand,2013,Oceania,81.41,High income,31889.99939,9.3601923,Developed,69,0,126.32,4442100
+New Zealand,2014,Oceania,81.4,High income,31969.99931,9.40168381,Developed,67,0,129.84,4516500
+New Zealand,2015,Oceania,81.46,High income,32279.99878,9.28344345,Developed,66,0,170.59,4609400
+Russia,2001,Europe,65.1,,,,Developing,38,21,259.7,145976482
+Russia,2002,Europe,64.8,,,,Developing,313,20,306.58,145306497
+Russia,2003,Europe,64.6,,,,Developing,322,20,345.49,144648618
+Russia,2004,Europe,64.9,,,,Developing,321,19,431.43,144067316
+Russia,2005,Europe,65,,,,Developing,327,18,591.86,143518814
+Russia,2006,Europe,66.4,,,,Developing,3,17,763.88,143049637
+Russia,2007,Europe,67.3,,,,Developing,282,16,979.05,142805114
+Russia,2008,Europe,67.5,,,,Developing,278,16,1166.56,142742366
+Russia,2009,Europe,68.2,,,,Developing,261,15,1344.54,142785349
+Russia,2010,Europe,68.4,,,,Developing,256,15,1254.65,142849468
+Russia,2011,Europe,69.4,,,,Developing,242,14,1363.98,142960908
+Russia,2012,Europe,69.6,,,,Developing,237,14,1706.34,143201721
+Russia,2013,Europe,70,,,,Developing,229,14,1896.68,143506995
+Russia,2014,Europe,73,,,,Developing,225,13,2127.58,143819667
+Russia,2015,Europe,75,,,,Developing,222,13,1235.86,144096870
