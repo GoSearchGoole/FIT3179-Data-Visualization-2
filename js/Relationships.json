@@ -1,9 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "data.csv" // Replace with your data source
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Relationships.csv"
   },
-  "repeat": {"row": ["Life Expectancy", "CO2 Emissions", "Health Expenditure", "Adult Mortality", "Infant Deaths"]},
+  "repeat": {"row": ["Life Expectancy", "CO2 Emissions", "Health Expenditure %", "Adult Mortality", "Infant Deaths"]},
   "spec": {
     "mark": "point",
     "encoding": {
