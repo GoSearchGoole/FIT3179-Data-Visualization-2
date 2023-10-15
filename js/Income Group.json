@@ -1,32 +1,49 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Life Expectancy in Asia in 2015"},
-  "width": 300,
-  "height": 150,
-  "data": {"url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"},
+  "height": 200,
+  "width": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Income_Group.csv"
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2015,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
   "transform": [
     {
-      "filter": {
-        "field": "Continent",
-        "equal": "Asia"
-      }}
+      "filter": "datum.Year == Year_selection"
+    },
+    {
+      "aggregate": [
+        {"op": "mean", "field": "Life Expectancy", "as": "avg_life_expectancy"}
+      ],
+      "groupby": ["Income Group"]
+    }
   ],
   "mark": "bar",
   "encoding": {
-    "y": {"field": "Life Expectancy", "type": "quantitative"},
-    "x": {"field": "Status", "type": "nominal"},
-    "color": {
-      "field": "Status",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Developed", "Developing"],
-        "range": ["#1f77b4", "#ff7f0e"]
-      },
-      "title": "Development Status",
-      "legend": false
+    "x": {
+      "field": "Income Group",
+      "type": "ordinal",
+      "title": "Income Group"
+    },
+    "y": {
+      "field": "avg_life_expectancy",
+      "type": "quantitative",
+      "title": "Average Life Expectancy"
     },
     "tooltip": [
-      {"field": "Life Expectancy", "title": "Life Expectancy"}
+      {"field": "income_group", "title": "Income Group"},
+      {"field": "avg_life_expectancy", "title": "Avg Life Expectancy"}
     ]
   }
 }

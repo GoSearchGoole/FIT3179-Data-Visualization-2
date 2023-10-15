@@ -106,6 +106,12 @@
 
     <div class="pure-g">
       <div class = "pure-u-1-1" style="text-align: center;">
+        <div id="vis11" class="vis-container"></div>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div class = "pure-u-1-1" style="text-align: center;">
         <div id="vis10" class="vis-container"></div>
       </div>
     </div>
@@ -122,6 +128,7 @@
         var specVis8 = "js/Oceania.json"
         var specVis9 = "js/South America.json"
         var specVis10 = "js/Countries.json"
+        var specVis11 = "js/Income Group.json"
     
         vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -163,7 +170,10 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    
+        vegaEmbed('#vis11', specVis11, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
       </script>
 
     
