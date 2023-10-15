@@ -12,6 +12,11 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
 p {
     font-size: 19px;
 }

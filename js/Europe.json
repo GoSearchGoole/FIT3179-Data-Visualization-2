@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Life Expectancy in Europe in 2015"},
+  "title": "Europe",
   "width": 100,
   "height": 90,
   "data": {"url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"},
@@ -13,8 +13,10 @@
   ],
   "mark": "bar",
   "encoding": {
-    "y": {"field": "Life Expectancy", "type": "quantitative"},
-    "x": {"field": "Status", "type": "nominal"},
+    "y": {"field": "Life Expectancy", "type": "quantitative", "axis": {"title":"Avg. Life Expectancy","grid": false}},
+    "x": {"field": "Status", "type": "nominal", "axis": {
+      "title": "",
+      "labelAngle": 0}},
     "color": {
       "field": "Status",
       "type": "nominal",
@@ -26,7 +28,10 @@
       "legend": false
     },
     "tooltip": [
-      {"field": "Life Expectancy", "title": "Life Expectancy"}
+      {"field": "Life Expectancy", "type": "quantitative", "title": "Life Expectancy"}
     ]
-  }
+  },
+  "config": {
+    "title": {"fontSize": 15},
+    "view": {"stroke": null}}
 }

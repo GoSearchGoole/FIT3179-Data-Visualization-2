@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 300,
-  "title": "Comparison of Life Expectancy between Continents from 2000 to 2015",
   "data": {
     "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Continent_vs.csv"
   },
@@ -26,7 +25,10 @@
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "labelAngle": -45
+        }
     },
     "y": {
       "field": "Life Expectancy",
@@ -92,7 +94,6 @@
     }
   ],
   "config": {
-    "title": {"fontSize": 20},
     "view": {"stroke": null}
   }
 }

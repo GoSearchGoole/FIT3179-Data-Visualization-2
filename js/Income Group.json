@@ -34,16 +34,24 @@
     "x": {
       "field": "Income Group",
       "type": "ordinal",
-      "title": "Income Group"
+      "axis": {
+        "title": "",
+        "labelAngle": 0}
     },
     "y": {
       "field": "avg_life_expectancy",
       "type": "quantitative",
-      "title": "Average Life Expectancy"
+      "title": "Average Life Expectancy",
+      "axis": {"grid": false}
+    },
+    "color":{
+      "value": "#1f77b4"
     },
     "tooltip": [
-      {"field": "income_group", "title": "Income Group"},
-      {"field": "avg_life_expectancy", "title": "Avg Life Expectancy"}
+      {"field": "Income Group", "type": "ordinal", "title": "Income Group"},
+      {"field": "avg_life_expectancy", "type": "quantitative", "title": "Avg Life Expectancy", "format": ".2f"}
     ]
-  }
+  },
+  "config": {
+    "view": {"stroke": null}}
 }
