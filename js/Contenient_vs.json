@@ -77,8 +77,8 @@
           "field": "Continent",
           "type": "nominal",
           "scale": {
-            "domain": ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"],
-            "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]
+            "domain": ["Africa", "Asia", "Europe","North America", "Oceania", "South America"],
+            "range": ["#82A1C2", "#F7AA5D", "#ED8988","#9CCCC8", "#87BF80", "#F3DA76"]
           }
         },
         "tooltip": [
