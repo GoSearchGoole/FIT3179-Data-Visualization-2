@@ -1,0 +1,281 @@
+Continent,Life Expectancy,Year,Status
+Asia,79.7,2000,Developed
+Europe,76.42222222,2000,Developed
+North America,77.95,2000,Developed
+Oceania,79.05,2000,Developed
+South America,0,2000,Developed
+Asia,79.835,2001,Developed
+Europe,76.51925926,2001,Developed
+North America,77.785,2001,Developed
+Oceania,77.89666667,2001,Developed
+South America,0,2001,Developed
+Asia,80.055,2002,Developed
+Europe,76.65555556,2002,Developed
+North America,78.17333333,2002,Developed
+Oceania,78.17333333,2002,Developed
+South America,0,2002,Developed
+Asia,80.4,2003,Developed
+Europe,76.81185185,2003,Developed
+North America,78.37,2003,Developed
+Oceania,78.48666667,2003,Developed
+South America,0,2003,Developed
+Asia,80.76,2004,Developed
+Europe,77.27740741,2004,Developed
+North America,78.62333333,2004,Developed
+Oceania,78.81,2004,Developed
+South America,0,2004,Developed
+Asia,80.96,2005,Developed
+Europe,77.39296296,2005,Developed
+North America,78.79,2005,Developed
+Oceania,79.12666667,2005,Developed
+South America,0,2005,Developed
+Asia,81.23,2006,Developed
+Europe,77.63333333,2006,Developed
+North America,78.97333333,2006,Developed
+Oceania,79.35333333,2006,Developed
+South America,0,2006,Developed
+Asia,81.475,2007,Developed
+Europe,77.81777778,2007,Developed
+North America,79.15333333,2007,Developed
+Oceania,79.55666667,2007,Developed
+South America,0,2007,Developed
+Asia,81.69,2008,Developed
+Europe,78.12444444,2008,Developed
+North America,79.32666667,2008,Developed
+Oceania,79.74,2008,Developed
+South America,0,2008,Developed
+Asia,82.085,2009,Developed
+Europe,78.40962963,2009,Developed
+North America,79.59333333,2009,Developed
+Oceania,79.98333333,2009,Developed
+South America,0,2009,Developed
+Asia,82.19,2010,Developed
+Europe,78.70851852,2010,Developed
+North America,79.69333333,2010,Developed
+Oceania,80.11333333,2010,Developed
+South America,0,2010,Developed
+Asia,82.165,2011,Developed
+Europe,79.14037037,2011,Developed
+North America,80.41333333,2011,Developed
+Oceania,80.32333333,2011,Developed
+South America,0,2011,Developed
+Asia,82.55,2012,Developed
+Europe,79.24222222,2012,Developed
+North America,80.69,2012,Developed
+Oceania,80.54,2012,Developed
+South America,0,2012,Developed
+Asia,82.79,2013,Developed
+Europe,79.50037037,2013,Developed
+North America,80.35333333,2013,Developed
+Oceania,80.73666667,2013,Developed
+South America,0,2013,Developed
+Asia,83.045,2014,Developed
+Europe,79.85851852,2014,Developed
+North America,80.48,2014,Developed
+Oceania,80.86666667,2014,Developed
+South America,0,2014,Developed
+Asia,83.265,2015,Developed
+Europe,79.74962963,2015,Developed
+North America,80.53333333,2015,Developed
+Oceania,81,2015,Developed
+South America,0,2015,Developed
+Africa,0,2000,Developed
+Africa,0,2001,Developed
+Africa,0,2002,Developed
+Africa,0,2003,Developed
+Africa,0,2004,Developed
+Africa,0,2005,Developed
+Africa,0,2006,Developed
+Africa,0,2007,Developed
+Africa,0,2008,Developed
+Africa,0,2009,Developed
+Africa,0,2010,Developed
+Africa,0,2011,Developed
+Africa,0,2012,Developed
+Africa,0,2013,Developed
+Africa,0,2014,Developed
+Africa,0,2015,Developed
+Africa,55.73684211,2000,Developing
+Asia,67.68461538,2000,Developed
+Europe,72.75333333,2000,Developed
+North America,72.29444444,2000,Developed
+Oceania,67.0125,2000,Developed
+South America,71.77692308,2000,Developed
+Africa,55.45172414,2001,Developed
+Asia,68.08871795,2001,Developed
+Europe,72.41058824,2001,Developed
+North America,71.98789474,2001,Developed
+Oceania,66.27875,2001,Developed
+South America,71.00384615,2001,Developed
+Africa,55.7187931,2002,Developed
+Asia,68.33564103,2002,Developed
+Europe,72.06411765,2002,Developed
+North America,72.4915,2002,Developed
+Oceania,66.3575,2002,Developed
+South America,71.31538462,2002,Developed
+Africa,55.945,2003,Developed
+Asia,68.77564103,2003,Developed
+Europe,72.23764706,2003,Developed
+North America,72.3255,2003,Developed
+Oceania,66.71375,2003,Developed
+South America,71.52923077,2003,Developed
+Africa,56.39982759,2004,Developed
+Asia,69.18358974,2004,Developed
+Europe,72.54764706,2004,Developed
+North America,72.565,2004,Developed
+Oceania,66.9225,2004,Developed
+South America,71.86384615,2004,Developed
+Africa,56.90603448,2005,Developed
+Asia,69.43897436,2005,Developed
+Europe,72.65882353,2005,Developed
+North America,72.7535,2005,Developed
+Oceania,67.1175,2005,Developed
+South America,72.14923077,2005,Developed
+Africa,57.51655172,2006,Developed
+Asia,69.78769231,2006,Developed
+Europe,73.00470588,2006,Developed
+North America,72.9465,2006,Developed
+Oceania,67.2975,2006,Developed
+South America,72.40769231,2006,Developed
+Africa,58.185,2007,Developed
+Asia,70.11769231,2007,Developed
+Europe,73.25529412,2007,Developed
+North America,73.1545,2007,Developed
+Oceania,67.48875,2007,Developed
+South America,72.64846154,2007,Developed
+Africa,58.85086207,2008,Developed
+Asia,70.54923077,2008,Developed
+Europe,73.64294118,2008,Developed
+North America,73.3205,2008,Developed
+Oceania,67.68625,2008,Developed
+South America,72.88230769,2008,Developed
+Africa,59.65724138,2009,Developed
+Asia,70.95692308,2009,Developed
+Europe,73.95176471,2009,Developed
+North America,73.517,2009,Developed
+Oceania,67.87625,2009,Developed
+South America,73.15615385,2009,Developed
+Africa,60.20758621,2010,Developed
+Asia,71.27435897,2010,Developed
+Europe,74.30117647,2010,Developed
+North America,73.6765,2010,Developed
+Oceania,68.08375,2010,Developed
+South America,73.39923077,2010,Developed
+Africa,60.93137931,2011,Developed
+Asia,71.37128205,2011,Developed
+Europe,75.13764706,2011,Developed
+North America,73.8305,2011,Developed
+Oceania,68.29625,2011,Developed
+South America,73.63307692,2011,Developed
+Africa,61.59810345,2012,Developed
+Asia,71.44923077,2012,Developed
+Europe,75.48470588,2012,Developed
+North America,74.015,2012,Developed
+Oceania,68.4925,2012,Developed
+South America,73.84153846,2012,Developed
+Africa,62.36,2013,Developed
+Asia,71.93358974,2013,Developed
+Europe,75.41411765,2013,Developed
+North America,74.202,2013,Developed
+Oceania,68.69875,2013,Developed
+South America,74.05615385,2013,Developed
+Africa,62.92758621,2014,Developed
+Asia,72.27974359,2014,Developed
+Europe,75.76588235,2014,Developed
+North America,74.4195,2014,Developed
+Oceania,68.90125,2014,Developed
+South America,74.26,2014,Developed
+Africa,63.3437931,2015,Developed
+Asia,72.41205128,2015,Developed
+Europe,76.01941176,2015,Developed
+North America,74.602,2015,Developed
+Oceania,69.06875,2015,Developed
+South America,74.46384615,2015,Developed
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,87,,
+,39,,
+,,,
+,87,,

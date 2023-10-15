@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "params": [
+      {
+      "name": "Year_selection",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2000,
+        "max": 2015,
+        "step": 1,
+        "name": "Year: "
+      }
+      }],
+      "width": 800,
+      "height": 300,
+      "data": {
+        "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Continent_vs.csv"
+      },
+      "title": "Life Expectancy from 2000 to 2015",
+      "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "continent",
+      "type": "nominal",
+      "title": "Continent"
+    },
+    "y": {
+      "field": "life_expectancy",
+      "type": "quantitative",
+      "aggregate": "mean",
+      "title": "Average Life Expectancy"
+    },
+    "color": {
+      "field": "Status",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Developed", "Developing"],
+        "range": ["#1f77b4", "#ff7f0e"]
+      },
+      "title": "Development Status"
+    }
+  }
+}
