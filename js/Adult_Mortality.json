@@ -12,9 +12,9 @@
         "name": "Year: "
       }
       }],
-      "width": 800,
-      "height": 350,
-      "title": "Adult Mortality from 2000 to 2015",
+      "width": 1000,
+      "height": 400,
+      "title": "Adult Mortality",
       "projection": {"type": "equalEarth"},
       "layer": [
         {
