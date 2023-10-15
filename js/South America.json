@@ -1,20 +1,30 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {"text": "Life Expectancy in Asia"},
+  "title": {"text": "Life Expectancy in South America in 2015"},
+  "width": 100,
+  "height": 90,
   "data": {"url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"},
   "transform": [
     {
       "filter": {
         "field": "Continent",
-        "equal": "Asia"
+        "equal": "South America"
       }}
   ],
   "mark": "bar",
   "encoding": {
     "y": {"field": "Life Expectancy", "type": "quantitative"},
     "x": {"field": "Status", "type": "nominal"},
+    "color": {
+      "field": "Status",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Developed", "Developing"],
+        "range": ["#1f77b4", "#ff7f0e"]
+      },
+      "title": "Development Status"
+    },
     "tooltip": [
-      {"field": "Year", "title": "Year"},
       {"field": "Life Expectancy", "title": "Life Expectancy"}
     ]
   }
