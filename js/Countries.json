@@ -1,42 +1,54 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 500,
+  "width": 500,
+  "title": "Countries",
   "data": {
     "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Countries.csv"
   },
-  "params": [
-    {
-    "name": "Year_selection",
-    "value": 2010,
-    "bind": {
-      "input": "range",
-      "min": 2001,
-      "max": 2015,
-      "step": 1,
-      "name": "Year: "
+    "params": [
+      {
+        "name": "Year_selection",
+        "value": 2010,
+        "bind": {
+          "input": "range",
+          "min": 2001,
+          "max": 2015,
+          "step": 1,
+          "name": "Year: "
+        }
+        }
+  ],
+  "selection": {
+    "Country_selection": {
+      "type": "multi", "fields": ["Country"], "bind": "legend"
     }
-    }],
-  "mark": {
-    "type": "circle",
-    "filled": true
   },
+  "transform":[
+    {"filter": "datum.Year == Year_selection"}
+  ],
+  "mark": "point",
   "encoding": {
     "x": {
       "field": "GDP",
       "type": "quantitative",
-      "scale": {"type": "log"},
-      "title": "GDP"
+      "title":"GDP",
+      "axis": {"tickCount": 7},
+      "scale": {"type": "log",  "domain":[1, 10000000]}
     },
     "y": {
       "field": "Life Expectancy",
       "type": "quantitative",
-      "scale": {"type": "linear"},
-      "title": "Life Expectancy"
+      "axis": { "tickCount": 6}
     },
-    "size": {
-      "field": "population",
-      "type": "quantitative",
-      "scale": {"type": "sqrt"},
-      "title": "Population"
-    }
+    "size": {"field": "Population", "type": "quantitative",  "scale": {"range": [30, 500]}
+},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Life Expectancy", "type": "quantitative"},
+      {"field": "GDP", "type": "quantitative", "format": ","},
+      {"field": "Population", "type": "quantitative", "format": ","}
+    ]
+
   }
 }
