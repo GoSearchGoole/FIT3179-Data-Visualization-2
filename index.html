@@ -129,6 +129,7 @@
         var specVis9 = "js/South America.json"
         var specVis10 = "js/Countries.json"
         var specVis11 = "js/Income Group.json"
+        var specVis12 = "js/Relationships.json"
     
         vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -171,6 +172,10 @@
     }).catch(console.error);
 
         vegaEmbed('#vis11', specVis11, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+        vegaEmbed('#vis12', specVis12, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 

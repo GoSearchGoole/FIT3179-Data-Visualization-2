@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "data.csv" // Replace with your data source
+  },
+  "repeat": {"row": ["Life Expectancy", "CO2 Emissions", "Health Expenditure", "Adult Mortality", "Infant Deaths"]},
+  "spec": {
+    "mark": "point",
+    "encoding": {
+      "x": {"field": {"repeat": "row"}, "type": "quantitative"},
+      "y": {"field": {"repeat": "column"}, "type": "quantitative"}
+    }
+  }
+}
