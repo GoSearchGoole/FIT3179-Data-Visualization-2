@@ -1,7 +1,7 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "params": [
-      {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "params": [
+    {
       "name": "Year_selection",
       "value": 2010,
       "bind": {
@@ -11,24 +11,37 @@
         "step": 1,
         "name": "Year: "
       }
-      }],
-      "width": 800,
-      "height": 300,
-      "data": {
-        "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Continent_vs.csv"
-      },
-      "title": "Life Expectancy from 2000 to 2015",
-      "mark": "bar",
+    }
+  ],
+  "width": 800,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"
+  },
+  "title": "Life Expectancy from 2000 to 2015",
+  "transform": [
+    {
+      "filter": {
+        "param": "Year_selection",
+        "field": "Year"
+      }
+    },
+    {
+      "fold": ["Developed", "Developing"],
+      "as": ["Status", "Life Expectancy"]
+    }
+  ],
+  "mark": "bar",
   "encoding": {
     "x": {
-      "field": "continent",
+      "field": "Continent",
       "type": "nominal",
-      "title": "Continent"
+      "title": "Continent",
+      "axis": {"labelAngle": 45}
     },
     "y": {
-      "field": "life_expectancy",
+      "field": "Life Expectancy",
       "type": "quantitative",
-      "aggregate": "mean",
       "title": "Average Life Expectancy"
     },
     "color": {
