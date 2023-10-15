@@ -1,57 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "params": [
-    {
-      "name": "Year_selection",
-      "value": 2010,
-      "bind": {
-        "input": "range",
-        "min": 2000,
-        "max": 2015,
-        "step": 1,
-        "name": "Year: "
-      }
-    }
-  ],
-  "width": 800,
-  "height": 300,
-  "data": {
-    "url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"
-  },
-  "title": "Life Expectancy from 2000 to 2015",
+  "title": {"text": "Life Expectancy in Asia"},
+  "data": {"url": "https://raw.githubusercontent.com/GoSearchGoole/FIT3179-Data-Visualization-2/main/data/Development_Status.csv"},
   "transform": [
     {
       "filter": {
-        "param": "Year_selection",
-        "field": "Year"
-      }
-    },
-    {
-      "fold": ["Developed", "Developing"],
-      "as": ["Status", "Life Expectancy"]
-    }
+        "field": "Continent",
+        "equal": "Asia"
+      }}
   ],
   "mark": "bar",
   "encoding": {
-    "x": {
-      "field": "Continent",
-      "type": "nominal",
-      "title": "Continent",
-      "axis": {"labelAngle": 45}
-    },
-    "y": {
-      "field": "Life Expectancy",
-      "type": "quantitative",
-      "title": "Average Life Expectancy"
-    },
-    "color": {
-      "field": "Status",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Developed", "Developing"],
-        "range": ["#1f77b4", "#ff7f0e"]
-      },
-      "title": "Development Status"
-    }
+    "y": {"field": "Life Expectancy", "type": "quantitative"},
+    "x": {"field": "Status", "type": "nominal"}
   }
 }
